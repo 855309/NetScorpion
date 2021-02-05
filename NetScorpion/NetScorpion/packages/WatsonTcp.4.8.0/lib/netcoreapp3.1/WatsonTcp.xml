@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WatsonTcp</name>
+    </assembly>
+    <members>
+        <member name="T:WatsonTcp.AuthenticationFailedEventArgs">
+            <summary>
+            Event arguments for when a client fails authentication.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.AuthenticationFailedEventArgs.IpPort">
+            <summary>
+            The IP:port of the client.
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.AuthenticationRequestedEventArgs">
+            <summary>
+            Event arguments for when authentication is requested from a client.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.AuthenticationRequestedEventArgs.IpPort">
+            <summary>
+            The IP:port of the client.
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.AuthenticationSucceededEventArgs">
+            <summary>
+            Event arguments for when a client successfully authenticates.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.AuthenticationSucceededEventArgs.IpPort">
+            <summary>
+            The IP:port of the client.
+            </summary>
+        </member>
+        <member name="M:WatsonTcp.ClientMetadata.Dispose">
+            <summary>
+            Tear down the object and dispose of resources.
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.ConnectionEventArgs">
+            <summary>
+            Event arguments for when a connection is established.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.ConnectionEventArgs.IpPort">
+            <summary>
+            The IP:port of the endpoint to which the connection was established.
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.DisconnectionEventArgs">
+            <summary>
+            Event arguments for when a disconnection is encountered.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.DisconnectionEventArgs.IpPort">
+            <summary>
+            The IP:port of the endpoint for which the disconnection was detected.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.DisconnectionEventArgs.Reason">
+            <summary>
+            The reason for the disconnection.
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.DisconnectReason">
+            <summary>
+            Reason why a client disconnected.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.DisconnectReason.Normal">
+            <summary>
+            Normal disconnection.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.DisconnectReason.Removed">
+            <summary>
+            Client connection was intentionally terminated programmatically or by the server.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.DisconnectReason.Timeout">
+            <summary>
+            Client connection timed out; server did not receive data within the timeout window.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.DisconnectReason.Shutdown">
+            <summary>
+            Disconnect due to server shutdown.
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.ExceptionEventArgs">
+            <summary>
+            Event arguments for when an exception is encountered. 
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.ExceptionEventArgs.Exception">
+            <summary>
+            Exception.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.ExceptionEventArgs.Json">
+            <summary>
+            JSON representation of the exception.
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.MessageReceivedEventArgs">
+            <summary>
+            Event arguments for when a message is received.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.MessageReceivedEventArgs.IpPort">
+            <summary>
+            The IP:port of the endpoint.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.MessageReceivedEventArgs.Metadata">
+            <summary>
+            The metadata received from the endpoint.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.MessageReceivedEventArgs.Data">
+            <summary>
+            The data received from the endpoint.
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.MessageStatus">
+            <summary>
+            Message status.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.MessageStatus.Normal">
+            <summary>
+            Normal
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.MessageStatus.Success">
+            <summary>
+            Success
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.MessageStatus.Failure">
+            <summary>
+            Failure
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.MessageStatus.AuthRequired">
+            <summary>
+            AuthRequired
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.MessageStatus.AuthRequested">
+            <summary>
+            AuthRequested
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.MessageStatus.AuthSuccess">
+            <summary>
+            AuthSuccess
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.MessageStatus.AuthFailure">
+            <summary>
+            AuthFailure
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.MessageStatus.Removed">
+            <summary>
+            Removed
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.MessageStatus.Shutdown">
+            <summary>
+            Shutdown
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.MessageStatus.Heartbeat">
+            <summary>
+            Heartbeat
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.MessageStatus.Timeout">
+            <summary>
+            Timeout
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.Mode">
+            <summary>
+            Mode.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.Mode.Tcp">
+            <summary>
+            Tcp.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.Mode.Ssl">
+            <summary>
+            Ssl.
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.Severity">
+            <summary>
+            Message severity.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.Severity.Debug">
+            <summary>
+            Debug messages.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.Severity.Info">
+            <summary>
+            Informational messages.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.Severity.Warn">
+            <summary>
+            Warning messages.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.Severity.Error">
+            <summary>
+            Error messages.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.Severity.Alert">
+            <summary>
+            Alert messages.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.Severity.Critical">
+            <summary>
+            Critical messages.
+            </summary>
+        </member>
+        <member name="F:WatsonTcp.Severity.Emergency">
+            <summary>
+            Emergency messages.
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.StreamReceivedEventArgs">
+            <summary>
+            Event arguments for when a stream is received.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.StreamReceivedEventArgs.IpPort">
+            <summary>
+            The IP:port of the endpoint.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.StreamReceivedEventArgs.Metadata">
+            <summary>
+            The metadata received from the endpoint.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.StreamReceivedEventArgs.ContentLength">
+            <summary>
+            The number of data bytes that should be read from DataStream.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.StreamReceivedEventArgs.DataStream">
+            <summary>
+            The stream containing the message data.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.StreamReceivedEventArgs.Data">
+            <summary>
+            The data from DataStream.
+            Using Data will fully read the contents of DataStream.
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.SyncRequest">
+            <summary>
+            Request that demands a response within a specific timeout.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.SyncRequest.IpPort">
+            <summary>
+            IP:port from which the request was received.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.SyncRequest.ExpirationUtc">
+            <summary>
+            The time at which the request expires.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.SyncRequest.Metadata">
+            <summary>
+            Metadata attached to the request.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.SyncRequest.Data">
+            <summary>
+            Request data.
+            </summary>
+        </member>
+        <member name="T:WatsonTcp.SyncResponse">
+            <summary>
+            Response to a synchronous request.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.SyncResponse.Metadata">
+            <summary>
+            Metadata to attach to the response.
+            </summary>
+        </member>
+        <member name="P:WatsonTcp.SyncResponse.Data">
+            <summary>
+            Data to attach to the response.
+            </summary>
+        </member>
+        <member name="M:WatsonTcp.SyncResponse.#ctor(WatsonTcp.SyncRequest,System.String)">
+            <summary>
+            Instantiate the object.
+            </summary>
+            <param name="req">The synchronous request for which this response is intended.</param>
+            <param name="data">Data to send as a response.</param>
+        </member>
+        <member name="M:WatsonTcp.SyncResponse.#ctor(WatsonTcp.SyncRequest,System.Byte[])">
+            <summary>
+            Instantiate the object.
+            </summary>
+            <param name="req">The synchronous request for which this response is intended.</param>
+            <param name="data">Data to send as a response.</param>
+        </member>
+        <member name="M:WatsonTcp.SyncResponse.#ctor(WatsonTcp.SyncRequest,System.Collections.Generic.Dictionary{System.Object,System.Object},System.String)">
+            <summary>
+            Instantiate the object.
+            </summary>
+            <param name="req">The synchronous request for which this response is intended.</param>
+            <param name="metadata">Metadata to attach to the response.</param>
+            <param name="data">Data to send as a response.</param>
+        </member>
+        <member name="M:WatsonTcp.SyncResponse.#ctor(WatsonTcp.SyncRequest,System.Collections.Generic.Dictionary{System.Object,System.Object},System.Byte[])">
+            <summary>
+            Instantiate the object.
+            </summary> 
+            <param name="req">The synchronous request for which this response is intended.</param>
+            <param name="metadata">Metadata to attach to the response.</para

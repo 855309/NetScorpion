@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion.Common\bin\Debug\netstandard2.0\NetScorpion.Common.deps.json
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion.Common\bin\Debug\netstandard2.0\NetScorpion.Common.dll
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion.Common\bin\Debug\netstandard2.0\NetScorpion.Common.pdb
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion.Common\obj\Debug\netstandard2.0\NetScorpion.Common.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion.Common\obj\Debug\netstandard2.0\NetScorpion.Common.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion.Common\obj\Debug\netstandard2.0\NetScorpion.Common.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion.Common\obj\Debug\netstandard2.0\NetScorpion.Common.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion.Common\obj\Debug\netstandard2.0\NetScorpion.Common.dll
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion.Common\obj\Debug\netstandard2.0\NetScorpion.Common.pdb

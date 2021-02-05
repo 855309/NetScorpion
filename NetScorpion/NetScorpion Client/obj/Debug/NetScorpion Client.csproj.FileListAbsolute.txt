@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Client\bin\Debug\NetScorpion Client.exe.config
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Client\bin\Debug\NetScorpion Client.exe
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Client\bin\Debug\NetScorpion Client.pdb
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Client\bin\Debug\WatsonTcp.xml
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Client\obj\Debug\NetScorpion Client.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Client\obj\Debug\NetScorpion Client.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Client\obj\Debug\NetScorpion Client.csproj.CopyComplete
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Client\obj\Debug\NetScorpion Client.exe
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Client\obj\Debug\NetScorpion Client.pdb
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Client\obj\Debug\NetScorpion Client.csproj.Fody.CopyLocal.cache

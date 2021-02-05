@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qG//3cfDnw3gftEg3wlGB6+PbV1cLFl+ilkwNOoXHrbEGy33BgLHQnKmvFalavxc+6LfGHsXj7t8YIn2tGqoZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fikret-windows\\Documents\\GitHub\\NetScorpion\\NetScorpion\\NetScorpion.Common\\NetScorpion.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fikret-windows\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\fikret-windows\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

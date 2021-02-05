@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\obj\Debug\NetScorpion Server.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\bin\Debug\NetScorpion Server.exe.config
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\bin\Debug\NetScorpion Server.exe
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\bin\Debug\NetScorpion Server.pdb
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\obj\Debug\NetScorpion Server.exe
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\obj\Debug\NetScorpion Server.pdb
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\obj\Debug\NetScorpion Server.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\bin\Debug\NetScorpion.Common.dll
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\bin\Debug\WatsonTcp.dll
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\bin\Debug\NetScorpion.Common.pdb
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\bin\Debug\WatsonTcp.xml
+C:\Users\Administrator\source\repos\NetScorpion\NetScorpion Server\obj\Debug\NetScorpion Server.csproj.CopyComplete
