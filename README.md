@@ -1,7 +1,7 @@
 # NetScorpion
 A Client-Server DDoS Attack Project
 
-```cs
+```
 listen start                            Opens a listening port and starts listening for incomming connections.
 listen stop                             Opens a listening port and starts listening for incomming connections.
 stop                                    Stops the server.
