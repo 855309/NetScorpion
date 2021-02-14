@@ -7,7 +7,7 @@ listen stop                                     Opens a listening port and start
 stop                                            Stops the server.
 list client                                     Shows a list for all connected clients.
 help                                            Shows this message.
-attack start <ip> <port> <client/all> <method>  Starts a TCP attack for all connected clients ('list client') (methods: tcp/http)
+attack start <ip> <port> <method> <client/all>  Starts a TCP attack for all connected clients ('list client') (methods: tcp/http)
 attack stop                                     Stops current attack.
 test connection                                 Tests all connections.
 options list                                    Shows a list for all options (e.g. port, ip)
